@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: darkgray;
+    overflow: hidden;
+    text-align: center;
+}
+
+#myCanvas{
+    background: lightgray;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Fireworks_0.jpg);
+    background-position: center center;
+    min-height: 100vh;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    color: gold;
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 3.4rem;
+}
+.container{
+    text-align: center;
+}
+.container span{
+    font-size: 2rem;
+}
